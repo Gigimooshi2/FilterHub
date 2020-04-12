@@ -1,0 +1,13 @@
+version: 0.1
+python: 3.6
+entrypoint: python runway_model.py
+cuda: 7.5
+cudnn: 7.0
+torch: 7
+framework: tensorflow
+files:
+    ignore:
+        - images/*
+build_steps:
+    - pip install runway-python
+    - pip install -r requirements.txt
