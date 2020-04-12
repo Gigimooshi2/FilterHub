@@ -1,7 +1,7 @@
 version: 0.1
 python: 3.6
 entrypoint: python runway_model.py
-cuda: 7.5
+cuda: 9.2
 cudnn: 7.0
 torch: 7
 framework: tensorflow
